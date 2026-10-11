@@ -1,0 +1,25 @@
+[LINK DO PROMPT]
+
+https://claude.ai/share/070b06c3-d76d-4e7b-ad0a-1eaea690f24b
+
+Quero que atue como um desenvolvedor python especialista. Sua tarefa é criar um script Python simples e funcional que realize a seguinte atividade:
+DESAFIO PRÁTICO: O ENGENHEIRO DE PROMPT E O PERCEPTRON
+Objetivo da Atividade Prática com LLM:
+• Atuar como Engenheiro de Prompt para orientar um LLM (ChatGPT, Claude, Gemini) a criar a simulação de uma função de decisão baseada no Perceptron em Python.
+• O problema: Criar uma função de decisão para aprovação automática de empréstimo bancário simples.
+• Foco da turma: Modelagem do prompt, clareza das instruções e teste do código gerado.
+• Não é necessário programar do zero: seu papel é orientar a IA com as regras lógicas e pesos!
+1. Regras do Perceptron de Empréstimo
+• O programa deve receber 3 entradas numéricas (0 a 10):
+  - x1: Histórico de Crédito
+  - x2: Renda Comprovada
+  - x3: Estabilidade no Emprego
+• Pesos definidos: w1 = 0.5, w2 = 0.3, w3 = 0.2.
+• Bias (b): -5.0 (Corte de aprovação).
+2. Saída do Programa
+• Calcular a soma ponderada: (x1 * w1) + (x2 * w2) + (x3 * w3) + b.
+• Se Soma >= 0 -> 'Empréstimo APROVADO'.
+• Se Soma < 0 -> 'Empréstimo NEGADO'.
+• Testar o código para 2 perfis de clientes e exibir no console.
+
+
